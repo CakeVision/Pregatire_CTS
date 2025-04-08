@@ -1,7 +1,7 @@
 package problems.DroneConnections.reports.factory;
 
-import problems.DroneConnections.interfaces.FieldReport;
-import problems.DroneConnections.reports.ReportTypes;
+import problems.DroneConnections.reports.utils.FieldReport;
+import problems.DroneConnections.reports.utils.ReportTypes;
 import problems.DroneConnections.reports.implementations.EnemiesReport;
 import problems.DroneConnections.reports.implementations.ServiceReport;
 import problems.DroneConnections.reports.implementations.TopologyReport;

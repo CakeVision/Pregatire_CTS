@@ -1,6 +1,6 @@
 package problems.DroneConnections.reports.implementations;
 
-import problems.DroneConnections.interfaces.FieldReport;
+import problems.DroneConnections.reports.utils.FieldReport;
 
 public class WeatherReport implements FieldReport {
 

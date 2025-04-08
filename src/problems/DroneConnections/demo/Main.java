@@ -1,17 +1,14 @@
 package problems.DroneConnections.demo;
 
-import problems.DroneConnections.interfaces.FieldReport;
 import problems.DroneConnections.interfaces.ServiceConnection;
-import problems.DroneConnections.reports.ReportTypes;
+import problems.DroneConnections.reports.utils.ReportTypes;
 import problems.DroneConnections.reports.factory.ReportFactory;
 import problems.DroneConnections.services.ServiceTypes;
 import problems.DroneConnections.singleton.ConnectionRegistry;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
+
         ConnectionRegistry.INSTANCE.addService(ServiceTypes.GPS);
         ConnectionRegistry.INSTANCE.addService(ServiceTypes.WEATHER);
         ConnectionRegistry.INSTANCE.addService(ServiceTypes.BASE);
