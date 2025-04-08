@@ -1,4 +1,4 @@
-package problems.DroneConnections;
+package problems.DroneConnections.interfaces;
 
 public interface ServiceConnection<T> {
     boolean connect();

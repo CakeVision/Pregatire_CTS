@@ -1,6 +1,6 @@
 package problems.DroneConnections.services;
 
-import problems.DroneConnections.ServiceConnection;
+import problems.DroneConnections.interfaces.ServiceConnection;
 
 public class ControlService implements ServiceConnection<String> {
 

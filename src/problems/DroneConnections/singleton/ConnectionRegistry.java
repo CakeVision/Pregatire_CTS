@@ -1,6 +1,6 @@
 package problems.DroneConnections.singleton;
 
-import problems.DroneConnections.ServiceConnection;
+import problems.DroneConnections.interfaces.ServiceConnection;
 import problems.DroneConnections.services.ServiceTypes;
 
 import java.util.HashMap;
